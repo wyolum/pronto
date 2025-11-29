@@ -1,0 +1,80 @@
+(footprint "1pin_power_noSS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole pin header")
+	(tags "pin header")
+	(property "Reference" "REF**"
+		(at 0 -2.286 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d4ec44a8-a8f4-4f46-9f6f-968fb844015e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4dd7c094-3056-4fc8-8e94-01a064617af0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12861f50-af18-4c22-bbf0-e561c6d03fc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5184598-2e3d-441b-968c-7d3a3f72bbd4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.3)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(uuid "e420553c-b4e4-419b-bdda-99cb2bed2889")
+	)
+	(embedded_fonts no)
+	(model "Pin_Headers/Pin_Header_Straight_1x01.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

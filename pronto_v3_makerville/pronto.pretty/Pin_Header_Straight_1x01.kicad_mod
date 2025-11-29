@@ -1,0 +1,117 @@
+(footprint "Pin_Header_Straight_1x01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole pin header")
+	(tags "pin header")
+	(property "Reference" "1pin"
+		(at 0 -2.286 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "02b1ebdd-75fd-43c1-bd2e-84e76b65425a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "49021682-06e5-474a-bf9b-438fdc4d32fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29c78658-c136-4500-8073-15575e6980d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d80e44d-f6fb-4884-9724-617b4ddf768e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.27 -1.27)
+		(end -1.27 1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80a73cdf-7123-485d-98f2-1185ad1acf2b")
+	)
+	(fp_line
+		(start -1.27 1.27)
+		(end 1.27 1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eed9e77f-1170-4d1b-923c-6c0adcf186e7")
+	)
+	(fp_line
+		(start 1.27 -1.27)
+		(end -1.27 -1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1146f9bd-2268-43ae-a0be-c62cbbfa898f")
+	)
+	(fp_line
+		(start 1.27 1.27)
+		(end 1.27 -1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1be969d-b018-40ee-9d8c-fb63d9a4fd54")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fe3c7f50-a9c0-4740-a548-02d2bcdac189")
+	)
+	(embedded_fonts no)
+	(model "Pin_Headers/Pin_Header_Straight_1x01.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

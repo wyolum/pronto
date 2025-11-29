@@ -16,24 +16,15 @@
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
-		(9 "F.Adhes" user "F.Adhesive")
-		(11 "B.Adhes" user "B.Adhesive")
-		(13 "F.Paste" user)
-		(15 "B.Paste" user)
-		(5 "F.SilkS" user)
-		(7 "B.SilkS" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
 		(1 "F.Mask" user)
 		(3 "B.Mask" user)
-		(17 "Dwgs.User" user)
-		(19 "Cmts.User" user "User.Comments")
-		(21 "Eco1.User" user "User.Eco1")
-		(23 "Eco2.User" user "User.Eco2")
+		(17 "Dwgs.User" user "User.Drawings")
 		(25 "Edge.Cuts" user)
 		(27 "Margin" user)
-		(31 "F.CrtYd" user)
-		(29 "B.CrtYd" user)
-		(35 "F.Fab" user)
-		(33 "B.Fab" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
 	)
 	(setup
 		(stackup
@@ -79,13 +70,13 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_00000000_020000af)
+			(layerselection 0x00000000_00000000_55555555_575555ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_02000000)
 			(disableapertmacros no)
-			(usegerberextensions yes)
+			(usegerberextensions no)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -122,7 +113,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e879f")
-		(at 142.24 114.3)
+		(at 142.24 115.57)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -279,7 +270,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e87ab")
-		(at 139.7 114.3)
+		(at 139.7 115.57)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -436,7 +427,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e87b7")
-		(at 139.7 111.76)
+		(at 139.7 113.03)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -593,7 +584,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e87c3")
-		(at 142.24 111.76)
+		(at 142.24 113.03)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -750,7 +741,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e87cf")
-		(at 142.24 106.68)
+		(at 142.24 107.95)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -907,7 +898,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e87db")
-		(at 139.7 106.68)
+		(at 139.7 107.95)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -1064,7 +1055,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e87e7")
-		(at 139.7 109.22)
+		(at 139.7 110.49)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -1221,7 +1212,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e87f3")
-		(at 142.24 109.22)
+		(at 142.24 110.49)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -1378,7 +1369,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e87ff")
-		(at 142.24 99.06)
+		(at 142.24 100.33)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -1535,7 +1526,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e880b")
-		(at 139.7 99.06)
+		(at 139.7 100.33)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -1692,7 +1683,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8817")
-		(at 139.7 96.52)
+		(at 139.7 97.79)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -1849,7 +1840,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8823")
-		(at 142.24 96.52)
+		(at 142.24 97.79)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -2006,7 +1997,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8847")
-		(at 139.7 104.14)
+		(at 139.7 105.41)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -2163,7 +2154,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8853")
-		(at 142.24 104.14)
+		(at 142.24 105.41)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -2320,7 +2311,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e885f")
-		(at 142.24 83.82)
+		(at 142.24 85.09)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -2477,7 +2468,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e886b")
-		(at 139.7 83.82)
+		(at 139.7 85.09)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -2634,7 +2625,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8877")
-		(at 139.7 81.28)
+		(at 139.7 82.55)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -2791,7 +2782,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8883")
-		(at 142.24 81.28)
+		(at 142.24 82.55)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -2948,7 +2939,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e888f")
-		(at 142.24 76.2)
+		(at 142.24 77.47)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -3105,7 +3096,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e889b")
-		(at 139.7 76.2)
+		(at 139.7 77.47)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -3262,7 +3253,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e88a7")
-		(at 139.7 78.74)
+		(at 139.7 80.01)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -3419,7 +3410,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e88b3")
-		(at 142.24 78.74)
+		(at 142.24 80.01)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -3576,7 +3567,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e88bf")
-		(at 142.24 88.9)
+		(at 142.24 90.17)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -3733,7 +3724,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e88cb")
-		(at 139.7 88.9)
+		(at 139.7 90.17)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -3890,7 +3881,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e88ef")
-		(at 142.24 91.44)
+		(at 142.24 92.71)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -4047,7 +4038,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e88fb")
-		(at 139.7 91.44)
+		(at 139.7 92.71)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -4204,7 +4195,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8907")
-		(at 139.7 93.98)
+		(at 139.7 95.25)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -4361,7 +4352,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8913")
-		(at 142.24 93.98)
+		(at 142.24 95.25)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -4518,7 +4509,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e891f")
-		(at 142.24 53.34)
+		(at 142.24 54.61)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -4675,7 +4666,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e892b")
-		(at 139.7 53.34)
+		(at 139.7 54.61)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -4832,7 +4823,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8937")
-		(at 139.7 50.8)
+		(at 139.7 52.07)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -4989,7 +4980,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8943")
-		(at 142.24 50.8)
+		(at 142.24 52.07)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -5146,7 +5137,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e894f")
-		(at 142.24 45.72)
+		(at 142.24 46.99)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -5303,7 +5294,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e895b")
-		(at 139.7 45.72)
+		(at 139.7 46.99)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -5460,7 +5451,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8967")
-		(at 139.7 48.26)
+		(at 139.7 49.53)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -5617,7 +5608,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8973")
-		(at 142.24 48.26)
+		(at 142.24 49.53)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -5774,7 +5765,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8997")
-		(at 139.7 43.18)
+		(at 139.7 44.45)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -5931,7 +5922,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e89a3")
-		(at 142.24 43.18)
+		(at 142.24 44.45)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -6088,7 +6079,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e89af")
-		(at 142.24 63.5)
+		(at 142.24 64.77)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -6245,7 +6236,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e89bb")
-		(at 139.7 63.5)
+		(at 139.7 64.77)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -6402,7 +6393,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e89c7")
-		(at 139.7 60.96)
+		(at 139.7 62.23)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -6559,7 +6550,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e89d3")
-		(at 142.24 60.96)
+		(at 142.24 62.23)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -6716,7 +6707,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e89f7")
-		(at 139.7 58.42)
+		(at 139.7 59.69)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -6873,7 +6864,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8a03")
-		(at 142.24 58.42)
+		(at 142.24 59.69)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -7030,7 +7021,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8a0f")
-		(at 142.24 68.58)
+		(at 142.24 69.85)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -7187,7 +7178,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8a1b")
-		(at 139.7 68.58)
+		(at 139.7 69.85)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -7344,7 +7335,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8a27")
-		(at 139.7 66.04)
+		(at 139.7 67.31)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -7501,7 +7492,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8a33")
-		(at 142.24 66.04)
+		(at 142.24 67.31)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -7658,7 +7649,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8a57")
-		(at 139.7 73.66)
+		(at 139.7 74.93)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -7815,7 +7806,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8a63")
-		(at 142.24 73.66)
+		(at 142.24 74.93)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -7972,7 +7963,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8a6f")
-		(at 93.98 73.66 180)
+		(at 93.98 74.93 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -8129,7 +8120,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8a7b")
-		(at 96.52 73.66 180)
+		(at 96.52 74.93 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -8286,7 +8277,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8a9f")
-		(at 93.98 66.04 180)
+		(at 93.98 67.31 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -8443,7 +8434,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8aab")
-		(at 96.52 66.04 180)
+		(at 96.52 67.31 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -8600,7 +8591,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8ab7")
-		(at 96.52 68.58 180)
+		(at 96.52 69.85 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -8757,7 +8748,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8ac3")
-		(at 93.98 68.58 180)
+		(at 93.98 69.85 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -8914,7 +8905,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8acf")
-		(at 93.98 58.42 180)
+		(at 93.98 59.69 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -9071,7 +9062,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8adb")
-		(at 96.52 58.42 180)
+		(at 96.52 59.69 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -9228,7 +9219,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8aff")
-		(at 93.98 60.96 180)
+		(at 93.98 62.23 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -9385,7 +9376,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8b0b")
-		(at 96.52 60.96 180)
+		(at 96.52 62.23 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -9542,7 +9533,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8b17")
-		(at 96.52 63.5 180)
+		(at 96.52 64.77 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -9699,7 +9690,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8b23")
-		(at 93.98 63.5 180)
+		(at 93.98 64.77 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -9856,7 +9847,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8b2f")
-		(at 93.98 43.18)
+		(at 93.98 44.45)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -10013,7 +10004,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8b3b")
-		(at 96.52 43.18)
+		(at 96.52 44.45)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -10170,7 +10161,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8b5f")
-		(at 93.98 48.26 180)
+		(at 93.98 49.53 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -10327,7 +10318,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8b6b")
-		(at 96.52 48.26 180)
+		(at 96.52 49.53 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -10484,7 +10475,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8b77")
-		(at 96.52 45.72 180)
+		(at 96.52 46.99 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -10641,7 +10632,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8b83")
-		(at 93.98 45.72 180)
+		(at 93.98 46.99 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -10798,7 +10789,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8b8f")
-		(at 93.98 50.8 180)
+		(at 93.98 52.07 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -10955,7 +10946,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8b9b")
-		(at 96.52 50.8 180)
+		(at 96.52 52.07 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -11112,7 +11103,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8ba7")
-		(at 96.52 53.34 180)
+		(at 96.52 54.61 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -11269,7 +11260,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8bb3")
-		(at 93.98 53.34 180)
+		(at 93.98 54.61 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -11426,7 +11417,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8bbf")
-		(at 93.98 93.98 180)
+		(at 93.98 95.25 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -11583,7 +11574,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8bcb")
-		(at 96.52 93.98 180)
+		(at 96.52 95.25 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -11740,7 +11731,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8bd7")
-		(at 96.52 91.44 180)
+		(at 96.52 92.71 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -11897,7 +11888,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8be3")
-		(at 93.98 91.44 180)
+		(at 93.98 92.71 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -12054,7 +12045,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8c07")
-		(at 96.52 88.9 180)
+		(at 96.52 90.17 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -12211,7 +12202,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8c13")
-		(at 93.98 88.9 180)
+		(at 93.98 90.17 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -12368,7 +12359,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8c1f")
-		(at 93.98 78.74 180)
+		(at 93.98 80.01 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -12525,7 +12516,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8c2b")
-		(at 96.52 78.74 180)
+		(at 96.52 80.01 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -12682,7 +12673,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8c37")
-		(at 96.52 76.2 180)
+		(at 96.52 77.47 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -12839,7 +12830,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8c43")
-		(at 93.98 76.2 180)
+		(at 93.98 77.47 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -12996,7 +12987,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8c4f")
-		(at 93.98 81.28 180)
+		(at 93.98 82.55 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -13153,7 +13144,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8c5b")
-		(at 96.52 81.28 180)
+		(at 96.52 82.55 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -13310,7 +13301,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8c67")
-		(at 96.52 83.82 180)
+		(at 96.52 85.09 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -13467,7 +13458,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8c73")
-		(at 93.98 83.82 180)
+		(at 93.98 85.09 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -13624,7 +13615,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8c7f")
-		(at 93.98 104.14 180)
+		(at 93.98 105.41 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -13781,7 +13772,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8c8b")
-		(at 96.52 104.14 180)
+		(at 96.52 105.41 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -13938,7 +13929,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8caf")
-		(at 93.98 96.52 180)
+		(at 93.98 97.79 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -14095,7 +14086,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8cbb")
-		(at 96.52 96.52 180)
+		(at 96.52 97.79 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -14252,7 +14243,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8cc7")
-		(at 96.52 99.06 180)
+		(at 96.52 100.33 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -14409,7 +14400,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8cd3")
-		(at 93.98 99.06 180)
+		(at 93.98 100.33 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -14566,7 +14557,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8cdf")
-		(at 93.98 109.22 180)
+		(at 93.98 110.49 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -14723,7 +14714,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8ceb")
-		(at 96.52 109.22 180)
+		(at 96.52 110.49 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -14880,7 +14871,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8cf7")
-		(at 96.52 106.68 180)
+		(at 96.52 107.95 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -15037,7 +15028,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8d03")
-		(at 93.98 106.68 180)
+		(at 93.98 107.95 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -15194,7 +15185,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8d0f")
-		(at 93.98 111.76 180)
+		(at 93.98 113.03 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -15351,7 +15342,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8d1b")
-		(at 96.52 111.76 180)
+		(at 96.52 113.03 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -15508,7 +15499,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8d27")
-		(at 96.52 114.3 180)
+		(at 96.52 115.57 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -15665,7 +15656,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000552e8d33")
-		(at 93.98 114.3 180)
+		(at 93.98 115.57 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -72342,7 +72333,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000554c63d6")
-		(at 93.98 55.88 180)
+		(at 93.98 57.15 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -72499,7 +72490,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000554c63e3")
-		(at 96.52 55.88 180)
+		(at 96.52 57.15 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -72656,7 +72647,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000554c6427")
-		(at 93.98 71.12 180)
+		(at 93.98 72.39 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -72813,7 +72804,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000554c6438")
-		(at 96.52 71.12 180)
+		(at 96.52 72.39 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -72970,7 +72961,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000554c647b")
-		(at 93.98 86.36 180)
+		(at 93.98 87.63 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -73127,7 +73118,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000554c6488")
-		(at 96.52 86.36 180)
+		(at 96.52 87.63 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -73284,7 +73275,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000554c64fe")
-		(at 93.98 101.6 180)
+		(at 93.98 102.87 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -73441,7 +73432,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000554c650b")
-		(at 96.52 101.6 180)
+		(at 96.52 102.87 180)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -73598,7 +73589,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000554c654d")
-		(at 139.7 55.88)
+		(at 139.7 57.15)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -73755,7 +73746,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000554c655a")
-		(at 142.24 55.88)
+		(at 142.24 57.15)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -73912,7 +73903,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000554c659b")
-		(at 139.7 71.12)
+		(at 139.7 72.39)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -74069,7 +74060,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000554c65a8")
-		(at 142.24 71.12)
+		(at 142.24 72.39)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -74226,7 +74217,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000554c67fd")
-		(at 139.7 86.36)
+		(at 139.7 87.63)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -74383,7 +74374,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000554c680a")
-		(at 142.24 86.36)
+		(at 142.24 87.63)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -74540,7 +74531,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000554c684c")
-		(at 139.7 101.6)
+		(at 139.7 102.87)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -74697,7 +74688,7 @@
 	(footprint "proto:1pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000554c6859")
-		(at 142.24 101.6)
+		(at 142.24 102.87)
 		(descr "Through hole pin header")
 		(tags "pin header")
 		(property "Reference" "1pin"
@@ -74837,634 +74828,6 @@
 			(layers "*.Cu" "*.Mask" "F.SilkS")
 			(remove_unused_layers no)
 			(uuid "da3e4b43-0049-4fbc-a65f-9fc7323795a3")
-		)
-		(embedded_fonts no)
-		(model "Pin_Headers/Pin_Header_Straight_1x01.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "proto:1pin"
-		(layer "F.Cu")
-		(uuid "00000000-0000-0000-0000-0000554c689b")
-		(at 139.7 116.84 180)
-		(descr "Through hole pin header")
-		(tags "pin header")
-		(property "Reference" "1pin"
-			(at 0 -2.286 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "09e29b01-82bd-4d69-8675-1207e41a7829")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "VAL**"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "9d080a1e-cea6-40ca-9ed6-f915e4ebf6da")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6368e5cd-ba14-4862-b3b6-29ca7c44257b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8ea99c73-9b21-44b9-9241-62d8e78f8b5e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr through_hole)
-		(fp_line
-			(start 0.635 1.397)
-			(end 0.635 1.27)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1395c9eb-5713-4e64-8fcc-d88e2726e948")
-		)
-		(fp_line
-			(start 0.635 1.27)
-			(end 0.635 1.016)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a7a13bf4-7b1c-4180-b037-661dd4352124")
-		)
-		(fp_line
-			(start 0.635 1.143)
-			(end -0.635 1.143)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e0fb5b2f-ba97-4ebc-bcbc-fc5d31a148a8")
-		)
-		(fp_line
-			(start -0.635 1.397)
-			(end 0.635 1.397)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "27453f80-07aa-45cd-a536-d0aec4be87a5")
-		)
-		(fp_line
-			(start -0.635 1.27)
-			(end 0.635 1.27)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6f29d0e0-09fd-4c1c-a5ce-de608233e756")
-		)
-		(fp_line
-			(start -0.635 1.27)
-			(end -0.635 1.397)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "82906b5b-e09f-4cad-8c67-d644c5f61a9c")
-		)
-		(fp_line
-			(start -0.635 1.016)
-			(end -0.635 1.27)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "70e2caf4-b708-430b-bae8-608449b5d141")
-		)
-		(fp_circle
-			(center 0 0)
-			(end -1.143 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "7cedebef-27bd-4cec-ae4e-23cde82cae9c")
-		)
-		(pad "1" thru_hole circle
-			(at 0 0 180)
-			(size 2.032 2.032)
-			(drill 1.016)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
-			(remove_unused_layers no)
-			(uuid "444ffce2-d542-4495-bc59-4cfe23af264d")
-		)
-		(embedded_fonts no)
-		(model "Pin_Headers/Pin_Header_Straight_1x01.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "proto:1pin"
-		(layer "F.Cu")
-		(uuid "00000000-0000-0000-0000-0000554c68a8")
-		(at 142.24 116.84 180)
-		(descr "Through hole pin header")
-		(tags "pin header")
-		(property "Reference" "1pin"
-			(at 0 -2.286 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b465e8a3-4107-4fd6-aca5-21de93f655bc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "VAL**"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "74fbb567-63fd-4156-a914-ef984dfc6072")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "91031159-07ef-4e0c-8355-9e23ba7e027f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6d2b2baa-c858-4afa-b931-5adbf6cdb940")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr through_hole)
-		(fp_line
-			(start 0.635 1.397)
-			(end 0.635 1.27)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5f9caffa-c7ea-4337-b2b8-77b84da41f89")
-		)
-		(fp_line
-			(start 0.635 1.27)
-			(end 0.635 1.016)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e2df9282-6abd-44af-83dc-87eb328d5951")
-		)
-		(fp_line
-			(start 0.635 1.143)
-			(end -0.635 1.143)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d6f2908a-c77d-4980-852f-5a5af266f1fe")
-		)
-		(fp_line
-			(start -0.635 1.397)
-			(end 0.635 1.397)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6402ce79-581d-45a6-992b-a4bab5c46751")
-		)
-		(fp_line
-			(start -0.635 1.27)
-			(end 0.635 1.27)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ebb1a565-2371-444e-bd29-64021cdcd69b")
-		)
-		(fp_line
-			(start -0.635 1.27)
-			(end -0.635 1.397)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3f5b9ef2-fdeb-4b4f-bfed-0d829c1c5686")
-		)
-		(fp_line
-			(start -0.635 1.016)
-			(end -0.635 1.27)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "85a16152-d778-45ad-a8a5-9e7fd9b21432")
-		)
-		(fp_circle
-			(center 0 0)
-			(end -1.143 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "2eab6a56-88ef-4141-bdbc-c41974816078")
-		)
-		(pad "1" thru_hole circle
-			(at 0 0 180)
-			(size 2.032 2.032)
-			(drill 1.016)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
-			(remove_unused_layers no)
-			(uuid "8d796798-ac66-4d0c-8454-3cf3078e483f")
-		)
-		(embedded_fonts no)
-		(model "Pin_Headers/Pin_Header_Straight_1x01.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "proto:1pin"
-		(layer "F.Cu")
-		(uuid "00000000-0000-0000-0000-0000554c6907")
-		(at 93.98 116.84 180)
-		(descr "Through hole pin header")
-		(tags "pin header")
-		(property "Reference" "1pin"
-			(at 0 -2.286 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0f51b18b-8d9a-46fd-9598-0e3640e7fcea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "VAL**"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b274737c-1905-4fd1-8e52-daee92122e13")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ea087a97-3d06-4582-a57b-bed7a476b390")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7b4d63d7-bf98-40ff-8910-7fe4555b39d0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr through_hole)
-		(fp_line
-			(start 0.635 1.397)
-			(end 0.635 1.27)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8c5ebfa7-0140-4ab7-8bc8-17ce400099b0")
-		)
-		(fp_line
-			(start 0.635 1.27)
-			(end 0.635 1.016)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "69a199df-ea44-408f-b394-b45db76051d6")
-		)
-		(fp_line
-			(start 0.635 1.143)
-			(end -0.635 1.143)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "eefd8917-0e28-496f-8e18-3867645b409e")
-		)
-		(fp_line
-			(start -0.635 1.397)
-			(end 0.635 1.397)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4b1012f9-a629-4c47-8fc2-3ae6d1a08506")
-		)
-		(fp_line
-			(start -0.635 1.27)
-			(end 0.635 1.27)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f093b530-6d69-4fc6-8412-1aa0268385ca")
-		)
-		(fp_line
-			(start -0.635 1.27)
-			(end -0.635 1.397)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8fdb81e2-b272-4c44-be66-c917cade0f52")
-		)
-		(fp_line
-			(start -0.635 1.016)
-			(end -0.635 1.27)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0acf2f3d-2408-41d0-9cce-7138bcc4a7cb")
-		)
-		(fp_circle
-			(center 0 0)
-			(end -1.143 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "d974099c-3b41-41f8-907b-4c72d766f56f")
-		)
-		(pad "1" thru_hole circle
-			(at 0 0 180)
-			(size 2.032 2.032)
-			(drill 1.016)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
-			(remove_unused_layers no)
-			(uuid "9aced9cf-bf71-46b6-883e-a1964331ba8c")
-		)
-		(embedded_fonts no)
-		(model "Pin_Headers/Pin_Header_Straight_1x01.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "proto:1pin"
-		(layer "F.Cu")
-		(uuid "00000000-0000-0000-0000-0000554c6914")
-		(at 96.52 116.84 180)
-		(descr "Through hole pin header")
-		(tags "pin header")
-		(property "Reference" "1pin"
-			(at 0 -2.286 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1dc96359-0a25-468a-a9b8-da9304d7831e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "VAL**"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "213a2c42-8951-4319-9766-d710495edbf7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "96ebf27d-e91b-47f2-bdf4-9301e5fd3b07")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fdad804b-c3cb-4af7-9117-5e09942af8de")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr through_hole)
-		(fp_line
-			(start 0.635 1.397)
-			(end 0.635 1.27)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fd526f26-ab5f-42d1-ad0f-d44f739b94d1")
-		)
-		(fp_line
-			(start 0.635 1.27)
-			(end 0.635 1.016)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "94b0ea69-dbd1-4b1b-afcd-a98d38945280")
-		)
-		(fp_line
-			(start 0.635 1.143)
-			(end -0.635 1.143)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "405454f6-0daa-4e43-9871-4fddac515e2c")
-		)
-		(fp_line
-			(start -0.635 1.397)
-			(end 0.635 1.397)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6c3bef18-aae4-4acf-a985-9ee049b67150")
-		)
-		(fp_line
-			(start -0.635 1.27)
-			(end 0.635 1.27)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d039400b-1109-4346-b5fc-87dee8591052")
-		)
-		(fp_line
-			(start -0.635 1.27)
-			(end -0.635 1.397)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "333eef64-b2e7-4229-a472-b153fb94ecbc")
-		)
-		(fp_line
-			(start -0.635 1.016)
-			(end -0.635 1.27)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "38b0eb06-3ca4-4d0a-8721-5e261746dfa4")
-		)
-		(fp_circle
-			(center 0 0)
-			(end -1.143 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "04483b03-1322-4349-8fd2-bcc4b9f428a3")
-		)
-		(pad "1" thru_hole circle
-			(at 0 0 180)
-			(size 2.032 2.032)
-			(drill 1.016)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
-			(remove_unused_layers no)
-			(uuid "53a492e6-3226-4e29-92b4-cf5f160d7b28")
 		)
 		(embedded_fonts no)
 		(model "Pin_Headers/Pin_Header_Straight_1x01.wrl"
@@ -79507,432 +78870,424 @@
 		(uuid "00000000-0000-0000-0000-0000554c6231")
 	)
 	(segment
-		(start 93.98 68.58)
-		(end 93.98 73.66)
+		(start 93.98 69.85)
+		(end 93.98 74.93)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "03fcce1b-870a-4e06-926c-0f56a34e1888")
 	)
 	(segment
-		(start 93.98 104.14)
-		(end 93.98 106.68)
+		(start 93.98 105.41)
+		(end 93.98 107.95)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "072f184a-953b-45f2-bde0-68dcf6dd04f0")
 	)
 	(segment
-		(start 142.24 48.26)
-		(end 142.24 45.72)
+		(start 142.24 49.53)
+		(end 142.24 46.99)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "09ab7960-2cce-4c61-99fd-c5f06c2a518e")
 	)
 	(segment
-		(start 96.52 73.66)
-		(end 96.52 76.2)
+		(start 96.52 74.93)
+		(end 96.52 77.47)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "0b0857d7-50c7-4374-a21b-bb5a473cae10")
 	)
 	(segment
-		(start 96.52 83.82)
-		(end 96.52 88.9)
+		(start 96.52 85.09)
+		(end 96.52 90.17)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "0b36e63d-551c-464e-b0f5-87d6905e0d84")
 	)
 	(segment
-		(start 142.24 114.3)
-		(end 142.24 111.76)
+		(start 142.24 115.57)
+		(end 142.24 113.03)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "0e924073-dc71-40b4-bdb6-f82bce8c1d48")
 	)
 	(segment
-		(start 96.52 96.52)
-		(end 96.52 99.06)
+		(start 96.52 97.79)
+		(end 96.52 100.33)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "10c830b9-c938-4e51-b915-32576fee4b6c")
 	)
 	(segment
-		(start 139.7 106.68)
-		(end 139.7 104.14)
+		(start 139.7 107.95)
+		(end 139.7 105.41)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "1443d04f-8459-4506-84d6-ba4d4b28bac0")
 	)
 	(segment
-		(start 96.52 88.9)
-		(end 96.52 91.44)
+		(start 96.52 90.17)
+		(end 96.52 92.71)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "14bb0cf1-a911-45a8-8a49-361125621f86")
 	)
 	(segment
-		(start 93.98 111.76)
-		(end 93.98 114.3)
+		(start 93.98 113.03)
+		(end 93.98 115.57)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "1bc09af2-20b2-4e8d-91e9-3f301c74f299")
 	)
 	(segment
-		(start 142.24 99.06)
-		(end 142.24 96.52)
+		(start 142.24 100.33)
+		(end 142.24 97.79)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "1bd3d657-4b7b-492b-a4fc-49419a8366d9")
 	)
 	(segment
-		(start 139.7 96.52)
-		(end 139.7 93.98)
+		(start 139.7 97.79)
+		(end 139.7 95.25)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "1bf898f7-026e-471f-9961-ac683239c03d")
 	)
 	(segment
-		(start 93.98 83.82)
-		(end 93.98 88.9)
+		(start 93.98 85.09)
+		(end 93.98 90.17)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "1d0ee02f-afbc-4dd2-a5e7-6d297dc0c88d")
 	)
 	(segment
-		(start 139.7 45.72)
-		(end 139.7 43.18)
+		(start 139.7 46.99)
+		(end 139.7 44.45)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "1fabf171-9924-4e71-bd5a-77e98d0c7c4c")
 	)
 	(segment
-		(start 139.7 66.04)
-		(end 139.7 63.5)
+		(start 139.7 67.31)
+		(end 139.7 64.77)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "1fbdc8c2-2fb1-4eab-adf2-23f5a7695cf3")
 	)
 	(segment
-		(start 142.24 106.68)
-		(end 142.24 104.14)
+		(start 142.24 107.95)
+		(end 142.24 105.41)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "21d3af8a-908e-4fdc-b30c-57ff922245a6")
 	)
 	(segment
-		(start 96.52 78.74)
-		(end 96.52 81.28)
+		(start 96.52 80.01)
+		(end 96.52 82.55)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "2215f48d-8437-4ff5-ae53-56f1f042f91b")
 	)
 	(segment
-		(start 139.7 99.06)
-		(end 139.7 96.52)
+		(start 139.7 100.33)
+		(end 139.7 97.79)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "26522371-18e9-4c58-b860-d3aa24b02182")
 	)
 	(segment
-		(start 93.98 81.28)
-		(end 93.98 83.82)
+		(start 93.98 82.55)
+		(end 93.98 85.09)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "26a209d7-b4c8-48b2-85cb-438674720f0d")
 	)
 	(segment
-		(start 93.98 50.8)
-		(end 93.98 48.26)
+		(start 93.98 52.07)
+		(end 93.98 49.53)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "2b4590bc-c436-4364-b874-8037dfb20ad1")
 	)
 	(segment
-		(start 96.52 81.28)
-		(end 96.52 83.82)
+		(start 96.52 82.55)
+		(end 96.52 85.09)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "2ba4b581-cab0-4fae-b7a3-3c1c78fc29cb")
 	)
 	(segment
-		(start 96.52 50.8)
-		(end 96.52 53.34)
+		(start 96.52 52.07)
+		(end 96.52 54.61)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "2f0ec8ce-fd06-43da-afca-f7a906e5d234")
 	)
 	(segment
-		(start 142.24 81.28)
-		(end 142.24 78.74)
+		(start 142.24 82.55)
+		(end 142.24 80.01)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "314c771c-c1cd-4900-83f9-69f00a06cab6")
 	)
 	(segment
-		(start 96.52 48.26)
-		(end 96.52 50.8)
+		(start 96.52 49.53)
+		(end 96.52 52.07)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "357d17fd-7b02-429a-b94e-e37cc5b0d671")
 	)
 	(segment
-		(start 96.52 66.04)
-		(end 96.52 68.58)
+		(start 96.52 67.31)
+		(end 96.52 69.85)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "35b1f561-f697-4129-9e9f-4f6ecf06e1f4")
 	)
 	(segment
-		(start 139.7 91.44)
-		(end 139.7 88.9)
+		(start 139.7 92.71)
+		(end 139.7 90.17)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "35bffc63-6c3b-4ba8-98cc-e6752e2cc933")
 	)
 	(segment
-		(start 139.7 114.3)
-		(end 139.7 116.84)
-		(width 0.508)
-		(layer "B.Cu")
-		(net 0)
-		(uuid "387f2c30-a6bb-4114-9891-0ea6b2b0f0ab")
-	)
-	(segment
-		(start 142.24 91.44)
-		(end 142.24 88.9)
+		(start 142.24 92.71)
+		(end 142.24 90.17)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "3a3d0590-4bcd-445c-9fe2-636c2ba9d0fb")
 	)
 	(segment
-		(start 96.52 111.76)
-		(end 96.52 114.3)
+		(start 96.52 113.03)
+		(end 96.52 115.57)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "3d6a512c-5c30-440a-a24a-70f9597e35b6")
 	)
 	(segment
-		(start 139.7 111.76)
-		(end 139.7 109.22)
+		(start 139.7 113.03)
+		(end 139.7 110.49)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "4127359d-f0c0-478f-a3c4-47d721cc9802")
 	)
 	(segment
-		(start 93.98 66.04)
-		(end 93.98 68.58)
+		(start 93.98 67.31)
+		(end 93.98 69.85)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "4579a5fe-08a6-45a0-abdd-171bceb4d4ea")
 	)
 	(segment
-		(start 96.52 58.42)
-		(end 96.52 60.96)
+		(start 96.52 59.69)
+		(end 96.52 62.23)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "497504e8-88ec-4115-af56-89e572cae7a9")
 	)
 	(segment
-		(start 142.24 78.74)
-		(end 142.24 76.2)
+		(start 142.24 80.01)
+		(end 142.24 77.47)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "4afd89e0-a104-4479-8c9a-0783588953d8")
 	)
 	(segment
-		(start 93.98 78.74)
-		(end 93.98 81.28)
+		(start 93.98 80.01)
+		(end 93.98 82.55)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "5a7856f0-d19d-4579-8bfb-f146a1dfa08c")
 	)
 	(segment
-		(start 96.52 91.44)
-		(end 96.52 93.98)
+		(start 96.52 92.71)
+		(end 96.52 95.25)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "5e4982e2-b98b-4ef7-a64c-4c22818ac5c1")
 	)
 	(segment
-		(start 142.24 60.96)
-		(end 142.24 58.42)
+		(start 142.24 62.23)
+		(end 142.24 59.69)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "5f4751a6-2534-445d-9753-4cc9f01e9f57")
 	)
 	(segment
-		(start 96.52 53.34)
-		(end 96.52 58.42)
+		(start 96.52 54.61)
+		(end 96.52 59.69)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "6092da63-57cf-4578-9d0f-942674c1152c")
 	)
 	(segment
-		(start 96.52 104.14)
-		(end 96.52 106.68)
+		(start 96.52 105.41)
+		(end 96.52 107.95)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "61f7df07-1b89-48a1-8ff2-332eaedaa7af")
 	)
 	(segment
-		(start 142.24 83.82)
-		(end 142.24 81.28)
+		(start 142.24 85.09)
+		(end 142.24 82.55)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "6597e806-4848-4b54-bf93-d8630054e41a")
 	)
 	(segment
-		(start 96.52 60.96)
-		(end 96.52 63.5)
+		(start 96.52 62.23)
+		(end 96.52 64.77)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "6ada4116-2d51-46cb-98ed-2f8b1000e6f4")
 	)
 	(segment
-		(start 96.52 43.18)
-		(end 96.52 45.72)
+		(start 96.52 44.45)
+		(end 96.52 46.99)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "6c1f19c4-224b-45ff-a5ee-11ff984b010a")
 	)
 	(segment
-		(start 142.24 88.9)
-		(end 142.24 83.82)
+		(start 142.24 90.17)
+		(end 142.24 85.09)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "6c909ef5-663c-411b-9ca2-8ebfd336ce6f")
 	)
 	(segment
-		(start 142.24 58.42)
-		(end 142.24 53.34)
+		(start 142.24 59.69)
+		(end 142.24 54.61)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "6f46a213-b365-4210-8c92-f02fcafc0712")
 	)
 	(segment
-		(start 139.7 88.9)
-		(end 139.7 83.82)
+		(start 139.7 90.17)
+		(end 139.7 85.09)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "706382ab-c701-4edc-b715-626c187d1ff4")
 	)
 	(segment
-		(start 93.98 93.98)
-		(end 93.98 96.52)
+		(start 93.98 95.25)
+		(end 93.98 97.79)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "73254e63-1466-479f-a55e-fdae4db6c5f7")
 	)
 	(segment
-		(start 142.24 68.58)
-		(end 142.24 66.04)
+		(start 142.24 69.85)
+		(end 142.24 67.31)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "76d17088-e90d-4d6a-bebf-1fb917d51b1e")
 	)
 	(segment
-		(start 139.7 109.22)
-		(end 139.7 106.68)
+		(start 139.7 110.49)
+		(end 139.7 107.95)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "76f8bfe4-f7f3-404c-9e2f-064c0ccb0678")
 	)
 	(segment
-		(start 139.7 68.58)
-		(end 139.7 66.04)
+		(start 139.7 69.85)
+		(end 139.7 67.31)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "79c05829-056c-4686-8caf-bd6370e21ada")
 	)
 	(segment
-		(start 96.52 45.72)
-		(end 96.52 48.26)
+		(start 96.52 46.99)
+		(end 96.52 49.53)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "802e9f43-2c22-4031-9728-b5c07ad4ff98")
 	)
 	(segment
-		(start 93.98 99.06)
-		(end 93.98 104.14)
+		(start 93.98 100.33)
+		(end 93.98 105.41)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "83fa0ec0-cdf9-4c98-a32f-606c5d0ad945")
 	)
 	(segment
-		(start 96.52 99.06)
-		(end 96.52 104.14)
+		(start 96.52 100.33)
+		(end 96.52 105.41)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "84b8c1d0-609f-48ab-94c3-11823a50fb40")
 	)
 	(segment
-		(start 139.7 104.14)
-		(end 139.7 99.06)
+		(start 139.7 105.41)
+		(end 139.7 100.33)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "8564a785-46af-425f-83f0-03504a8d4fde")
 	)
 	(segment
-		(start 142.24 63.5)
-		(end 142.24 60.96)
+		(start 142.24 64.77)
+		(end 142.24 62.23)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "86379457-27fb-462d-9b99-6234c00c54b4")
 	)
 	(segment
-		(start 93.98 76.2)
-		(end 93.98 78.74)
+		(start 93.98 77.47)
+		(end 93.98 80.01)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
@@ -79947,328 +79302,320 @@
 		(uuid "8eee4328-933c-426c-aacb-aa827ae39669")
 	)
 	(segment
-		(start 142.24 96.52)
-		(end 142.24 93.98)
+		(start 142.24 97.79)
+		(end 142.24 95.25)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "91552cfc-dfab-482e-b15b-f404d329f364")
 	)
 	(segment
-		(start 139.7 76.2)
-		(end 139.7 73.66)
+		(start 139.7 77.47)
+		(end 139.7 74.93)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "91ab4282-5183-4132-8f30-b6c63c1df227")
 	)
 	(segment
-		(start 142.24 73.66)
-		(end 142.24 68.58)
+		(start 142.24 74.93)
+		(end 142.24 69.85)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "94778eac-7929-4831-86d7-199ec444e7d8")
 	)
 	(segment
-		(start 139.7 53.34)
-		(end 139.7 50.8)
+		(start 139.7 54.61)
+		(end 139.7 52.07)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "97d42c39-b842-4d6e-b652-4d6ef19ca904")
 	)
 	(segment
-		(start 96.52 76.2)
-		(end 96.52 78.74)
+		(start 96.52 77.47)
+		(end 96.52 80.01)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "9bbce852-bda0-4fdf-aab9-689d165a0b04")
 	)
 	(segment
-		(start 93.98 109.22)
-		(end 93.98 111.76)
+		(start 93.98 110.49)
+		(end 93.98 113.03)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "9c7b7f2e-e327-4642-83e9-10e3409ffea9")
 	)
 	(segment
-		(start 139.7 58.42)
-		(end 139.7 53.34)
+		(start 139.7 59.69)
+		(end 139.7 54.61)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "a08f320c-18f4-4d41-9615-2d1ae0bc0e81")
 	)
 	(segment
-		(start 139.7 78.74)
-		(end 139.7 76.2)
+		(start 139.7 80.01)
+		(end 139.7 77.47)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "a10bb42b-65d9-41d1-bc17-8382a2740402")
 	)
 	(segment
-		(start 142.24 66.04)
-		(end 142.24 63.5)
+		(start 142.24 67.31)
+		(end 142.24 64.77)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "a22bcde7-7082-4ebb-8a11-c5ee21b1b622")
 	)
 	(segment
-		(start 142.24 93.98)
-		(end 142.24 91.44)
+		(start 142.24 95.25)
+		(end 142.24 92.71)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "a396a71f-a8f6-4e28-8da1-94f4668b50b6")
 	)
 	(segment
-		(start 142.24 50.8)
-		(end 142.24 48.26)
+		(start 142.24 52.07)
+		(end 142.24 49.53)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "a5fef251-a9e5-4f61-9a17-2b97c8af4352")
 	)
 	(segment
-		(start 139.7 48.26)
-		(end 139.7 45.72)
+		(start 139.7 49.53)
+		(end 139.7 46.99)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "a742ea74-f02f-4ae1-a9b6-043ad31d839f")
 	)
 	(segment
-		(start 142.24 76.2)
-		(end 142.24 73.66)
+		(start 142.24 77.47)
+		(end 142.24 74.93)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "a75fbe09-c72b-401b-8472-41ea21b8ddf4")
 	)
 	(segment
-		(start 93.98 96.52)
-		(end 93.98 99.06)
+		(start 93.98 97.79)
+		(end 93.98 100.33)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "a7929565-89b0-4a4a-b885-04e69cc978db")
 	)
 	(segment
-		(start 96.52 63.5)
-		(end 96.52 66.04)
+		(start 96.52 64.77)
+		(end 96.52 67.31)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "a93b0977-416f-45e0-af78-03b2d6ffe029")
 	)
 	(segment
-		(start 96.52 93.98)
-		(end 96.52 96.52)
+		(start 96.52 95.25)
+		(end 96.52 97.79)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "a97883b8-1162-403a-8470-6f05db44b4e3")
 	)
 	(segment
-		(start 142.24 45.72)
-		(end 142.24 43.18)
+		(start 142.24 46.99)
+		(end 142.24 44.45)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "aa49f709-762d-4b67-a219-d2bb06a4c1f6")
 	)
 	(segment
-		(start 93.98 60.96)
-		(end 93.98 63.5)
+		(start 93.98 62.23)
+		(end 93.98 64.77)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "ab78e9a9-a2a0-4294-97c2-3a02a4bd0821")
 	)
 	(segment
-		(start 139.7 50.8)
-		(end 139.7 48.26)
+		(start 139.7 52.07)
+		(end 139.7 49.53)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "b8c8a045-2cdd-4038-bc21-83cb7a22f2aa")
 	)
 	(segment
-		(start 93.98 88.9)
-		(end 93.98 91.44)
+		(start 93.98 90.17)
+		(end 93.98 92.71)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "bfa2a02f-0f1f-4e8e-913d-7db01fca057f")
 	)
 	(segment
-		(start 93.98 58.42)
-		(end 93.98 53.34)
+		(start 93.98 59.69)
+		(end 93.98 54.61)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "c2890d95-bb11-4e20-8cb0-feffa946b706")
 	)
 	(segment
-		(start 93.98 58.42)
-		(end 93.98 60.96)
+		(start 93.98 59.69)
+		(end 93.98 62.23)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "c7da639a-6cce-4a31-ac19-339e9e829567")
 	)
 	(segment
-		(start 93.98 91.44)
-		(end 93.98 93.98)
+		(start 93.98 92.71)
+		(end 93.98 95.25)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "c917b34d-1b4c-4ba2-857a-41e58e82df62")
 	)
 	(segment
-		(start 93.98 106.68)
-		(end 93.98 109.22)
+		(start 93.98 107.95)
+		(end 93.98 110.49)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "c9d6d349-edef-4b54-bd4c-8a437da70ee9")
 	)
 	(segment
-		(start 93.98 73.66)
-		(end 93.98 76.2)
+		(start 93.98 74.93)
+		(end 93.98 77.47)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "caa7d61d-b2b4-44dc-b906-f891833b4347")
 	)
 	(segment
-		(start 139.7 83.82)
-		(end 139.7 81.28)
+		(start 139.7 85.09)
+		(end 139.7 82.55)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "ccaf46a7-6dcb-4c96-8a86-571de53946c4")
 	)
 	(segment
-		(start 142.24 53.34)
-		(end 142.24 50.8)
+		(start 142.24 54.61)
+		(end 142.24 52.07)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "ce19b9dd-5f2f-445f-b924-d774d8d0f658")
 	)
 	(segment
-		(start 142.24 111.76)
-		(end 142.24 109.22)
+		(start 142.24 113.03)
+		(end 142.24 110.49)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "d0f3f874-3033-4795-9fa3-a1582aed8b85")
 	)
 	(segment
-		(start 96.52 109.22)
-		(end 96.52 111.76)
+		(start 96.52 110.49)
+		(end 96.52 113.03)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "d29b3cde-8e21-41ae-8504-49442521d81c")
 	)
 	(segment
-		(start 139.7 60.96)
-		(end 139.7 58.42)
+		(start 139.7 62.23)
+		(end 139.7 59.69)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "dce11b30-ba81-4f45-b16c-3602355af84d")
 	)
 	(segment
-		(start 96.52 106.68)
-		(end 96.52 109.22)
+		(start 96.52 107.95)
+		(end 96.52 110.49)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "de799767-3b2b-4fcd-a1a2-3b9123452405")
 	)
 	(segment
-		(start 96.52 68.58)
-		(end 96.52 73.66)
+		(start 96.52 69.85)
+		(end 96.52 74.93)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "e0cf1445-ff7c-4a02-9bcb-d31d2ab56849")
 	)
 	(segment
-		(start 139.7 114.3)
-		(end 139.7 111.76)
+		(start 139.7 115.57)
+		(end 139.7 113.03)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "e1b1e546-3d47-4f96-806f-6140c01619b3")
 	)
 	(segment
-		(start 93.98 53.34)
-		(end 93.98 50.8)
+		(start 93.98 54.61)
+		(end 93.98 52.07)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "e773ac58-3787-4394-b7f1-bb33672d3c0c")
 	)
 	(segment
-		(start 142.24 114.3)
-		(end 142.24 116.84)
-		(width 0.508)
-		(layer "B.Cu")
-		(net 0)
-		(uuid "ec40564e-0048-4431-a930-54688ab1f721")
-	)
-	(segment
-		(start 139.7 73.66)
-		(end 139.7 68.58)
+		(start 139.7 74.93)
+		(end 139.7 69.85)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "ed6656a0-2344-45a1-b6e9-c4d675a07a99")
 	)
 	(segment
-		(start 139.7 81.28)
-		(end 139.7 78.74)
+		(start 139.7 82.55)
+		(end 139.7 80.01)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "ee32f25e-136b-417b-92c3-a92b65e09aa5")
 	)
 	(segment
-		(start 142.24 104.14)
-		(end 142.24 99.06)
+		(start 142.24 105.41)
+		(end 142.24 100.33)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "f0c88cb3-bad4-46a5-9d88-23380ff1d1ce")
 	)
 	(segment
-		(start 139.7 93.98)
-		(end 139.7 91.44)
+		(start 139.7 95.25)
+		(end 139.7 92.71)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "f2a0bec8-3991-4c05-b703-0c1991756c9c")
 	)
 	(segment
-		(start 139.7 63.5)
-		(end 139.7 60.96)
+		(start 139.7 64.77)
+		(end 139.7 62.23)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "f79a9e86-04eb-4284-9fb8-bc2e49d090b9")
 	)
 	(segment
-		(start 93.98 63.5)
-		(end 93.98 66.04)
+		(start 93.98 64.77)
+		(end 93.98 67.31)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
@@ -80283,24 +79630,24 @@
 		(uuid "fa1121c2-7c19-4958-b9bc-201f24a7e28d")
 	)
 	(segment
-		(start 93.98 48.26)
-		(end 93.98 45.72)
+		(start 93.98 49.53)
+		(end 93.98 46.99)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "fdcd3ff5-b352-4fa2-9032-91910407f6c0")
 	)
 	(segment
-		(start 93.98 45.72)
-		(end 93.98 43.18)
+		(start 93.98 46.99)
+		(end 93.98 44.45)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
 		(uuid "fe2746b5-8053-4003-9bd8-b54421b098f5")
 	)
 	(segment
-		(start 142.24 109.22)
-		(end 142.24 106.68)
+		(start 142.24 110.49)
+		(end 142.24 107.95)
 		(width 0.508)
 		(layer "B.Cu")
 		(net 0)
